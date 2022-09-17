@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: Video, learning objectives, discussion questions, and references on a
+  solar lighting example.
 learning_resource_types: []
 ocw_type: SupplementalResourceSection
 parent_title: 'Module 2: Examples of Ethical Challenges in Machine Learning'

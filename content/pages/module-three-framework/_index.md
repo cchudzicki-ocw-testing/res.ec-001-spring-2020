@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This contains notes and videos for module 3 on the pedagogical framework
+  for addressing ethical challenges.
 learning_resource_types: []
 ocw_type: SupplementalResourceSection
 title: 'Module 3: Pedagogical Framework for Addressing Ethical Challenges '

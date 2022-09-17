@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: Video, learning objectives, discussion questions, and references on fairness
+  criteria.
 learning_resource_types: []
 ocw_type: SupplementalResourceSection
 parent_title: 'Module 3: Pedagogical Framework for Addressing Ethical Challenges '

@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This contains notes and videos for module four on case studies and their
+  data.
 learning_resource_types: []
 ocw_type: SupplementalResourceSection
 title: 'Module 4: Case Studies with Data '

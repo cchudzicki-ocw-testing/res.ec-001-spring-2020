@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: ''
 learning_resource_types: []
 ocw_type: SupplementalResourceSection
 parent_title: 'Module 4: Case Studies with Data '
@@ -61,23 +62,23 @@ Augment data with counterfactuals: for each data point X{{< sub "i" >}} with a g
 
 We see varying accuracy across different approaches on accuracy for the male and female demographics, as shown in the plot below. The counterfactual approach is shown to be the best at reducing gender bias. We see similar behavior for the positive rates and negative rates as well as the true positive and true negative rates.
 
-{{< resource 159e51c4-364c-f4c7-3ea8-881a502d1412 "Three dot charts comparing accuracy on males vs females" >}}
+{{< resource "159e51c4-364c-f4c7-3ea8-881a502d1412" >}}
 
-{{< resource 84713bc2-11ab-3e2c-2f79-fb97993a87b6 "Dot chart comparing true positive & true negative rates across gender" >}}
+{{< resource "84713bc2-11ab-3e2c-2f79-fb97993a87b6" >}}
 
 ### Model-based debiasing techniques
 
 Different ML models show different levels of bias. By changing the model type and architecture, we can observe which ones will be less biased for this application. We examine single and multi-model architectures. The models that will be considered are support vector, random forest, KNN, logistic regression, and MLP classifiers. Multi-model architectures involve training a group of different models that make a final prediction based on consensus. Two approaches can be used for consensus; hard voting, where the final prediction is the majority prediction among the models and soft voting, where the final prediction is the average prediction. The following plots show the differences in overall accuracy and the discrepancies between accuracy across gender.
 
-{{< resource 8abd93b3-7c78-7982-4349-e621cc27e681 "Dot chart of all models accuracy across gender" >}}
+{{< resource "8abd93b3-7c78-7982-4349-e621cc27e681" >}}
 
-{{< resource de105aa8-e698-9d30-2a1b-3dd4dec919b2 "Four dot charts of model positive/negative rates" >}}
+{{< resource "de105aa8-e698-9d30-2a1b-3dd4dec919b2" >}}
 
 It is also important to compare the results of the models across multiple training sessions. For each model type, five instances of the model were trained and compared. Results are shown the plot below. We can see that different models have different variability in performance for different metrics of interest.
 
-{{< resource b8caa202-b521-50fc-68d6-70c0d18ee8ae "Dot chart of accuracy disparity comparison" >}}
+{{< resource "b8caa202-b521-50fc-68d6-70c0d18ee8ae" >}}
 
-{{< resource 476c520a-369e-7b57-097b-17393fc150ca "Four dot charts of positive/negative disparity comparisons" >}}
+{{< resource "476c520a-369e-7b57-097b-17393fc150ca" >}}
 
 References
 ----------
